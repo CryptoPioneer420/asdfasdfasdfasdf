@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-15",
+    "domain": "cryptominingdeals.com"
+  },
+  "methods": [
+    {
+      "id": "hydromining",
+      "name": "Hydromining",
+      "slug": "hydromining",
+      "shortDescription": "Geschlossene Wasserkühlsysteme mit separaten Kühlkörpern - der bewährte Mittelweg zwischen Aufwand und Effizienz.",
+      "longDescription": "Hydromining nutzt destilliertes Wasser in geschlossenen Kreisläufen, um ASIC-Miner effizient zu kühlen. Die Wärme wird über Kühlkörper aufgenommen und kann für Heizzwecke weiterverwendet werden.",
+      "icon": "droplet",
+      "iconColor": "#3b82f6",
+      "efficiency": "90%+",
+      "efficiencyRating": 4,
+      "initialCost": "€€€",
+      "initialCostRange": "€800-1.200 pro Miner",
+      "initialCostRating": 3,
+      "maintenance": "Monatlich",
+      "maintenanceHours": "2-4 Std./Monat",
+      "maintenanceRating": 3,
+      "heatRecovery": "30-40%",
+      "heatRecoveryRating": 4,
+      "roiMonths": 18,
+      "roiRange": "14-24 Monate",
+      "scalability": "Hoch",
+      "scalabilityRating": 4,
+      "complexity": "Mittel",
+      "complexityRating": 3,
+      "noiseReduction": "60-70%",
+      "noiseReductionRating": 3,
+      "hardwareLifespan": "+30-40%",
+      "lifespanRating": 4,
+      "idealFor": "Professional Farms 10-500 Miner",
+      "idealFarmSize": {
+        "min": 10,
+        "max": 500,
+        "optimal": "20-100"
+      },
+      "advantages": [
+        "Bewährte Technologie mit vielen Referenzen",
+        "Mittlere Einstiegskosten",
+        "Einfache Wartung ohne Spezialwissen",
+        "Gute Skalierbarkeit",
+        "Hardware bleibt modifizierbar"
+      ],
+      "disadvantages": [
+        "Nicht höchste Effizienz",
+        "Regelmäßige Wartung erforderlich",
+        "Potenzielle Leckage-Risiken"
+      ],
+      "bestUseCase": "Mittlere bis große Mining-Operationen mit Fokus auf Zuverlässigkeit und moderate Wärmenutzung",
+      "pageUrl": "/heat-recovery/hydromining"
+    },
+    {
+      "id": "immersion",
+      "name": "Immersion Cooling",
+      "slug": "immersion-cooling",
+      "shortDescription": "Vollständige Tauchung in dielektrische Flüssigkeiten - maximale Effizienz für professionelle Operationen.",
+      "longDescription": "Bei Immersion Cooling wird die Mining-Hardware komplett in nicht-leitende Spezialflüssigkeiten getaucht. Dies ermöglicht die höchstmögliche Kühleffizienz und optimale Wärmerückgewinnung.",
+      "icon": "waves",
+      "iconColor": "#8b5cf6",
+      "efficiency": "95%+",
+      "efficiencyRating": 5,
+      "initialCost": "€€€€€",
+      "initialCostRange": "€1.200-2.500 pro Miner",
+      "initialCostRating": 5,
+      "maintenance": "Vierteljährlich",
+      "maintenanceHours": "4-8 Std./Quartal",
+      "maintenanceRating": 2,
+      "heatRecovery": "40-50%",
+      "heatRecoveryRating": 5,
+      "roiMonths": 24,
+      "roiRange": "18-36 Monate",
+      "scalability": "Mittel",
+      "scalabilityRating": 3,
+      "complexity": "Hoch",
+      "complexityRating": 4,
+      "noiseReduction": "95-99%",
+      "noiseReductionRating": 5,
+      "hardwareLifespan": "+40-50%",
+      "lifespanRating": 5,
+      "idealFor": "Large Operations 50+ Miner",
+      "idealFarmSize": {
+        "min": 50,
+        "max": 1000,
+        "optimal": "100-500"
+      },
+      "advantages": [
+        "Höchste Kühleffizienz am Markt",
+        "Maximale Wärmerückgewinnung",
+        "Nahezu lautloser Betrieb",
+        "Längste Hardware-Lebensdauer",
+        "Bestes Overclocking-Potential (+15-25%)"
+      ],
+      "disadvantages": [
+        "Höchste Anfangsinvestition",
+        "Spezialwissen für Wartung nötig",
+        "Hardware-Rückbau aufwändig",
+        "Fluid-Kosten und -Entsorgung"
+      ],
+      "bestUseCase": "Große, professionelle Mining-Farmen mit langfristigem Planungshorizont und Wärmeabnahmeverträgen",
+      "pageUrl": "/heat-recovery/immersion-cooling"
+    },
+    {
+      "id": "air",
+      "name": "Air-Cooling",
+      "slug": "air-cooling",
+      "shortDescription": "Klassische Luftkühlung mit Ventilatoren - der Standard ohne zusätzliche Infrastruktur.",
+      "longDescription": "Die werksseitige Luftkühlung nutzt integrierte Ventilatoren zur Wärmeabfuhr. Einfach und kostengünstig, aber mit begrenzter Effizienz und ohne sinnvolle Wärmerückgewinnung.",
+      "icon": "wind",
+      "iconColor": "#6b7280",
+      "efficiency": "70%",
+      "efficiencyRating": 2,
+      "initialCost": "€",
+      "initialCostRange": "€0 (inkludiert)",
+      "initialCostRating": 1,
+      "maintenance": "Minimal",
+      "maintenanceHours": "1-2 Std./Monat",
+      "maintenanceRating": 1,
+      "heatRecovery": "0-5%",
+      "heatRecoveryRating": 1,
+      "roiMonths": null,
+      "roiRange": "N/A",
+      "scalability": "Niedrig",
+      "scalabilityRating": 2,
+      "complexity": "Niedrig",
+      "complexityRating": 1,
+      "noiseReduction": "0%",
+      "noiseReductionRating": 1,
+      "hardwareLifespan": "Basis",
+      "lifespanRating": 2,
+      "idealFor": "Kleine Hobby-Farms, Einsteiger",
+      "idealFarmSize": {
+        "min": 1,
+        "max": 10,
+        "optimal": "1-5"
+      },
+      "advantages": [
+        "Keine Zusatzinvestition",
+        "Einfachste Handhabung",
+        "Keine Spezialkomponenten nötig",
+        "Schnelle Inbetriebnahme"
+      ],
+      "disadvantages": [
+        "Hoher Lärmpegel",
+        "Keine Wärmerückgewinnung",
+        "Höherer Stromverbrauch für Kühlung",
+        "Staubprobleme",
+        "Kürzere Hardware-Lebensdauer"
+      ],
+      "bestUseCase": "Hobby-Miner und Einsteiger mit wenigen Geräten, die keine Wärme nutzen können/wollen",
+      "pageUrl": "/miners"
+    }
+  ],
+  "comparisonTable": {
+    "headers": [
+      { "key": "metric", "label": "Merkmal" },
+      { "key": "hydromining", "label": "Hydromining" },
+      { "key": "immersion", "label": "Immersion Cooling" },
+      { "key": "air", "label": "Air-Cooling" }
+    ],
+    "rows": [
+      {
+        "metric": "Kühleffizienz",
+        "metricIcon": "thermometer",
+        "hydromining": { "value": "90%+", "rating": 4 },
+        "immersion": { "value": "95%+", "rating": 5 },
+        "air": { "value": "70%", "rating": 2 }
+      },
+      {
+        "metric": "Anfangskosten",
+        "metricIcon": "euro",
+        "hydromining": { "value": "€800-1.200/Miner", "rating": 3 },
+        "immersion": { "value": "€1.200-2.500/Miner", "rating": 5 },
+        "air": { "value": "€0", "rating": 1 }
+      },
+      {
+        "metric": "Wartungsaufwand",
+        "metricIcon": "wrench",
+        "hydromining": { "value": "Monatlich", "rating": 3 },
+        "immersion": { "value": "Vierteljährlich", "rating": 2 },
+        "air": { "value": "Minimal", "rating": 1 }
+      },
+      {
+        "metric": "Wärmerückgewinnung",
+        "metricIcon": "flame",
+        "hydromining": { "value": "30-40%", "rating": 4 },
+        "immersion": { "value": "40-50%", "rating": 5 },
+        "air": { "value": "0-5%", "rating": 1 }
+      },
+      {
+        "metric": "ROI-Zeitraum",
+        "metricIcon": "trending-up",
+        "hydromining": { "value": "14-24 Monate", "rating": 4 },
+        "immersion": { "value": "18-36 Monate", "rating": 3 },
+        "air": { "value": "N/A", "rating": 0 }
+      },
+      {
+        "metric": "Skalierbarkeit",
+        "metricIcon": "layers",
+        "hydromining": { "value": "Hoch", "rating": 4 },
+        "immersion": { "value": "Mittel", "rating": 3 },
+        "air": { "value": "Niedrig", "rating": 2 }
+      },
+      {
+        "metric": "Komplexität",
+        "metricIcon": "settings",
+        "hydromining": { "value": "Mittel", "rating": 3 },
+        "immersion": { "value": "Hoch", "rating": 4 },
+        "air": { "value": "Niedrig", "rating": 1 }
+      },
+      {
+        "metric": "Lärmreduktion",
+        "metricIcon": "volume-x",
+        "hydromining": { "value": "60-70%", "rating": 3 },
+        "immersion": { "value": "95-99%", "rating": 5 },
+        "air": { "value": "0%", "rating": 1 }
+      },
+      {
+        "metric": "Hardware-Lebensdauer",
+        "metricIcon": "clock",
+        "hydromining": { "value": "+30-40%", "rating": 4 },
+        "immersion": { "value": "+40-50%", "rating": 5 },
+        "air": { "value": "Standard", "rating": 2 }
+      },
+      {
+        "metric": "Overclocking-Potential",
+        "metricIcon": "zap",
+        "hydromining": { "value": "+10-15%", "rating": 3 },
+        "immersion": { "value": "+15-25%", "rating": 5 },
+        "air": { "value": "0-5%", "rating": 1 }
+      }
+    ]
+  },
+  "recommendations": {
+    "byFarmSize": [
+      {
+        "size": "1-10 Miner",
+        "label": "Hobby/Einsteiger",
+        "recommended": "air",
+        "reason": "Geringe Investition, einfache Handhabung - Kühlinfrastruktur lohnt sich noch nicht"
+      },
+      {
+        "size": "10-50 Miner",
+        "label": "Kleine Farm",
+        "recommended": "hydromining",
+        "reason": "Optimales Verhältnis von Investition zu Ertrag, erste ernsthafte Wärmenutzung möglich"
+      },
+      {
+        "size": "50-200 Miner",
+        "label": "Mittlere Farm",
+        "recommended": "hydromining",
+        "alternativeRecommended": "immersion",
+        "reason": "Hydromining als bewährte Lösung, Immersion bei langfristigem Horizont und Wärmeabnahme"
+      },
+      {
+        "size": "200+ Miner",
+        "label": "Große Farm",
+        "recommended": "immersion",
+        "reason": "Skaleneffekte machen höhere Initialkosten rentabel, maximale Effizienz und Wärmerückgewinnung"
+      }
+    ],
+    "byBudget": [
+      {
+        "budget": "Minimal",
+        "recommended": "air",
+        "reason": "Keine Zusatzinvestition erforderlich"
+      },
+      {
+        "budget": "Moderat (€10.000-50.000)",
+        "recommended": "hydromining",
+        "reason": "Gute Rendite bei überschaubarem Investment"
+      },
+      {
+        "budget": "Hoch (€50.000+)",
+        "recommended": "immersion",
+        "reason": "Beste langfristige Performance und ROI"
+      }
+    ],
+    "byPriority": [
+      {
+        "priority": "Wärmerückgewinnung",
+        "recommended": "immersion",
+        "alternativeRecommended": "hydromining",
+        "reason": "Immersion bietet höchste Temperaturen und Effizienz"
+      },
+      {
+        "priority": "Einfachheit",
+        "recommended": "hydromining",
+        "reason": "Bewährte Technik ohne Spezialkenntnisse"
+      },
+      {
+        "priority": "Lärmreduktion",
+        "recommended": "immersion",
+        "reason": "Nahezu lautloser Betrieb durch Wegfall der Lüfter"
+      },
+      {
+        "priority": "Schneller ROI",
+        "recommended": "hydromining",
+        "reason": "Niedrigere Initialkosten bei guter Performance"
+      }
+    ]
+  },
+  "stats": {
+    "headline": [
+      {
+        "value": "40%",
+        "label": "Zusätzliche Einnahmen",
+        "sublabel": "durch Wärmerückgewinnung möglich",
+        "icon": "trending-up"
+      },
+      {
+        "value": "45%",
+        "label": "Energieeffizienz-Steigerung",
+        "sublabel": "gegenüber Luftkühlung",
+        "icon": "zap"
+      },
+      {
+        "value": "18-36",
+        "label": "Monate ROI",
+        "sublabel": "für Kühlinfrastruktur",
+        "icon": "clock"
+      }
+    ]
+  }
+}
